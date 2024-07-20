@@ -1,0 +1,158 @@
+body{
+ margin: 0;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 40px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.name{
+    flex: 1;
+    font-size: 30px;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+}
+.a-home{
+    cursor: pointer;
+    text-decoration: none;
+}
+.a-home:hover{
+    text-decoration: underline;
+    color: rgb(130, 130, 237);
+    transition: 0.15s;
+}
+.a-about{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.a-about:hover{
+    text-decoration: underline;
+    color: rgb(130, 130, 237);
+}
+.a-contact{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.a-contact:hover{
+    text-decoration: underline;
+    color: rgb(130, 130, 237);
+}
+.fa-solid{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.fa-solid:hover{
+  color: rgb(130, 130, 237);
+}
+.two{
+    background-color: rgb(104, 103, 103);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-family: roboto;
+    
+
+}
+.accessories{
+    margin-left: 15px;
+}
+.search-bar{
+    height: 30px;
+    width: 220px;
+    border-radius: 4px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-right: 7px;
+    font-size: 16px;
+}
+.three{
+   display: flex; 
+   flex-direction: row;
+   height: 500px;
+}
+.three-one{
+    height: 520px;
+    width: 849px;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+.three-two{
+    width: 450px;
+    height: 500px;
+    position: relative;
+}
+.image-swop{
+    width: 849px;
+    max-height: 100%;
+}
+.image-women{
+    width: 650px;
+    height: 250px;
+    object-fit: cover;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.div-men{
+    position: relative;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    
+}
+.image-men{
+    width: 650px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: -8px;
+    
+}
+.four{
+ display: flex;
+ flex-direction: row;
+}
+.image-sale{
+    width: 450px;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    margin-top: 15px;
+}
+.image-getonefree{
+    width: 588px;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    margin-top: 15px;
+    height: 300px;
+}
+.image-shoes{
+   width: 450px;
+   border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
